@@ -1,0 +1,353 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.body2{
+    margin: 0 150px;
+}
+.top-logo{
+    width: 300px;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   z-index: 1;
+  position: sticky;
+  top: 0;
+  background-color: white;
+ 
+
+  width: 100%;
+}
+.nav-menu>ul>li{
+    list-style-type: none;
+    margin: 0 7px;
+
+}
+.nav-menu>ul>li>a{
+    text-decoration: none;
+    color: #ababab;
+}
+.nav-menu {
+   
+        position: relative;
+        display: inline-block;
+      
+}
+#active{
+    color:#00bfa5;
+}
+.nav-menu>ul {
+    display: flex;
+}
+.drop-down-content>ul{
+    list-style-type: none;;
+}
+.drop-down-content>ul {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop-down-content>ul>li>a{
+    text-decoration: none;
+    color: #ababab;
+  
+}
+.drop-down-content>ul>li {
+    margin-top: 10px;
+}
+.nav-menu>ul>li:hover .drop-down-content>ul{
+    display:block;
+    
+}
+
+
+/* discription-section code starts from here  */
+.discription-section{
+    margin-top: 80px;
+}
+.discription-section>img{
+    position: relative;
+    left: 50%;
+    width:40px;
+    height : auto;
+    margin-bottom: 50px;;
+
+}
+.discription-section>p {
+    text-align: center;
+    color: #00bfa5;
+    font-size: 2em;
+    margin-bottom: 50px;
+
+}
+.discription-section-flex {
+    display: flex;
+    line-height: 1.7
+}
+.discription-section-flex>div{
+    margin-left: 10px;  
+    color: #ababab; 
+}
+
+
+
+/* buisness-section starts from here  */
+
+.buisness-section{
+    display: flex;
+
+}
+.buisness-section>.for-patients {
+    background-color:#00ccb1;
+    width: 500px;
+    height: 430px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+}
+.buisness-section>.for-patients>p,.buisness-section>.for-doctors>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-patients>.title-buisness-section{
+    font-size: 0.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-patients>.text-buisness-section{
+    font-size: 1.5em;
+}
+.buisness-section>.for-doctors {
+    background-color: #3d83df;
+    width: 500px;
+    height: 430px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+
+
+}
+.buisness-section>.for-patients>select{
+    padding: 12px 25px;
+    margin: 15px 50px 0 50px;
+}
+.buisness-section>.for-doctors>.title-buisness-section{
+    font-size: 0.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-doctors>.text-buisness-section{
+    font-size: 1.5em;
+}
+.buisness-section>.for-doctors>img{
+    margin-top:60px;
+   
+}
+.buisness-section>.for-patients>img,.buisness-section>.for-doctors>img{
+    width: 400px;
+    height: 250px;
+    margin-left: 200px;
+
+}
+
+
+
+/* partenaire-section code start from here  */
+.partenaire-section{
+    display:flex;
+    margin-top: 50px;
+}
+.partenaire-section-icons{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.partenaire-section-icons>div>a>svg{
+    font-size: 1.5em;
+    fill: #747474;
+    width: 125px;
+    height: auto;
+    margin-left: 30px;
+   margin-bottom: 20px;
+  
+}
+.partenaire-section-icons>div>a>svg:hover {
+    fill: #00bfa5;
+}
+.partenaire-section-parag{
+    min-width: 400px;
+    line-height: 1.7;
+    font-size: 1.5em;
+    color: #84dbff;
+}
+
+
+
+
+
+
+
+.aboutus-section {
+  
+  background-color: #d6f6f6;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.aboutus-section-text-title{
+    color: #00b39b;
+    font-size: 1.7em;
+    margin: 100px 0 0 200px;
+
+}
+.aboutus-section-text-parag{
+    color: #747474;
+    font-size: 0.8em;
+    margin: 50px 0 0 200px;
+    width: 400px;
+}
+.text-area{
+  
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    padding: 0 50px
+   
+    
+ 
+}
+
+
+.text-area>img{
+position: absolute;
+height: 400px;
+width: auto;
+left: 10%;
+top:  50%
+
+  
+}
+
+.first2-cards,.second2-cards{
+    display: flex
+}
+.first2-cards>#move-down,.second2-cards>#move-down{
+    margin-top: 35px;
+}
+.first2-cards>.cards,.second2-cards>.cards{
+    width:220px;
+    height: 240px;
+    background-color: white;
+    margin: 20px 20px 0 0    ;
+    border-radius: 5px
+}
+.first2-cards>.cards>img,.second2-cards>.cards>img{
+    position: relative;
+    left: 42%;
+    margin-top: 30px;
+    width:35px;
+    height : auto;
+    margin-bottom:20px;
+
+}
+.card-title{
+    color: #00b39b;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 10px;;
+
+
+}
+.card-parag{
+    color: #747474;
+    font-size: 0.8em;
+    text-align: justify;
+    text-align: center;
+    line-height: 1.4
+    
+}
+
+.whatwedid-section{
+    display: flex   ;
+    align-items: center;
+    justify-content: center
+}
+ .whatwedid-section-title{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #00b39b
+
+}
+.whatwedid-section-parag{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #747474;
+    width: 400px;
+    line-height: 1.7;
+} 
+
+
+
+
+.city-sections{
+    display: grid;
+    grid-template-columns: 320px 320px 320px ;
+    grid-gap: 10px;
+justify-content: center;
+    padding: 10px;
+    
+}
+.city-sections-cards{
+    border-radius: 10px;
+    overflow: hidden;
+   width: 278px;
+    height: 335px;
+}
+.city-sections-cards>img{
+    border-radius: 10px;
+}
+.city-sections-cards:hover{
+    box-shadow: 6px 10px 38px -2px rgba(138,126,138,1);
+}
+.city-sections-cards>div{
+    display: flex;
+    justify-content: space-around  ;
+}
+.city-sections-cards>div>p{
+    font-size: 0.8em;
+    color: #747474;
+    margin-top: 15px;
+}
+.city-sections-cards>div>p>a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #3d83df;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 50px;
+    border-top:1px solid #ababab;
+}
+footer>p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+footer>p>a{
+    color: blue;
+}
+
